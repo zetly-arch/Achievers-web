@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Teachers — The Achievers Institute of Learning</title>
+<meta name="description" content="Meet 11 faculty mentors: JEE, IOE, WRC and SNSC rankers plus MBBS scholars and MSc toppers.">
+<link rel="canonical" href="https://theachievers.com.np/teachers">
+<link rel="icon" href="images/logo-mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar"><div class="wrap" style="display:flex;justify-content:space-between;gap:1rem;padding-top:.45rem;padding-bottom:.45rem;flex-wrap:wrap">
+<span>Puspalal Chowk, Mahendranagar · 981-0686665 / 976-9884993</span>
+<a href="https://play.google.com/store/apps/details?id=com.theachievers.learning" target="_blank" rel="noopener" style="font-weight:700;color:#fff;text-decoration:none">Get it on Google Play</a>
+</div></div>
+<header class="nav"><nav class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:.7rem;padding-bottom:.7rem">
+<a href="index.html" style="display:flex;align-items:center;gap:.7rem;text-decoration:none"><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:2.5rem"><span class="font-head" style="font-weight:800;font-size:.9rem;line-height:1.2">The Achievers<br><span class="muted" style="font-weight:500;font-size:.72rem">Institute of Learning</span></span></a>
+<div class="navlinks" style="display:flex;align-items:center;gap:1.3rem">
+<a class="nl" href="index.html">Home</a><a class="nl" href="courses.html">Courses</a><a class="nl" href="mock-test.html">Mock Test</a><a class="nl" href="syllabus.html">Syllabus</a><a class="nl on" href="teachers.html">Teachers</a><a class="nl" href="about.html">About</a><a class="nl" href="counselling.html">Counselling</a><a class="nl" href="demo.html">Demo</a>
+</div>
+<div style="display:flex;gap:.5rem;align-items:center"><a href="login.html" class="btn btn-red" style="padding:.55rem 1rem;font-size:.82rem">Student Login / Register</a><button id="menuBtn" class="btn btn-ghost" style="display:none;padding:.55rem .8rem" aria-label="Open menu">☰</button></div></nav>
+<div id="mobileMenu" class="wrap" style="padding-bottom:1rem"><div class="glass" style="border-radius:.8rem;padding:.8rem;display:grid;gap:.2rem">
+<a class="nl" href="index.html">Home</a><a class="nl" href="courses.html">Courses</a><a class="nl" href="mock-test.html">Mock Test</a><a class="nl" href="syllabus.html">Syllabus</a><a class="nl" href="teachers.html">Teachers</a><a class="nl" href="about.html">About</a><a class="nl" href="counselling.html">Counselling</a><a class="nl" href="demo.html">Demo</a><a class="nl" href="contact.html">Contact</a>
+</div></div></header>
+
+<main class="wrap sec-sm">
+<h1 style="margin:0">Our teachers</h1>
+<p class="muted">11 faculty mentors — rankers, scholars and toppers. Select a card for the full profile.</p>
+<div id="mentorFilters" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.2rem">
+<button data-mf="All" class="chip active">All</button><button data-mf="Physics" class="chip">Physics</button><button data-mf="Chemistry" class="chip">Chemistry</button><button data-mf="Mathematics" class="chip">Mathematics</button><button data-mf="Biology" class="chip">Biology</button><button data-mf="Zoology" class="chip">Zoology</button>
+</div>
+<div id="mentorGridAll" class="grid g4" style="margin-top:1.5rem"></div>
+<div class="glass" style="border-radius:1rem;padding:1.5rem;margin-top:2rem;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between">
+<div><h3 style="color:#fff;margin:0">Learn with them live</h3><p class="muted" style="margin:.3rem 0 0">Browse courses or book a free demo with any mentor.</p></div>
+<div style="display:flex;gap:.6rem;flex-wrap:wrap"><a href="courses.html" class="btn btn-ghost">Browse courses</a><button data-open="bookModal" class="btn btn-red">Book a free demo</button></div>
+</div>
+</main>
+
+<footer class="footer"><div class="wrap" style="display:grid;gap:2rem;padding-top:3rem;padding-bottom:2rem;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr))">
+<div><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:3rem"><p class="muted" style="font-size:.88rem">Together We ACHIEVE, Together We INSPIRE.</p></div>
+<div><h4 style="color:#fff">Platform</h4><div style="display:grid;gap:.4rem"><a href="courses.html">Courses</a><a href="teachers.html">Teachers</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></div>
+<div><h4 style="color:#fff">Resources</h4><div style="display:grid;gap:.4rem"><a href="mock-test.html">Free Mock Test</a><a href="faqs.html">FAQs</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
+<div><h4 style="color:#fff">Contact</h4><div style="display:grid;gap:.4rem" class="muted"><a href="tel:9810686665">981-0686665</a><a href="https://wa.me/9779810686665" target="_blank" rel="noopener">WhatsApp</a></div></div></div>
+<div style="border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.75rem;padding:1rem" class="muted">© <span class="js-year"></span> The Achievers Institute of Learning</div></footer>
+
+<div id="mentorModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(0,0,0,.7)"><div class="glass" style="background:rgba(15,23,42,.96);border-radius:1rem;width:100%;max-width:32rem;position:relative;overflow:hidden;max-height:92vh;overflow-y:auto">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;color:#fff;cursor:pointer;z-index:2">×</button><div id="mentorBody"></div></div></div>
+<div id="bookModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(0,0,0,.7)"><div class="glass" style="background:rgba(15,23,42,.96);border-radius:1rem;width:100%;max-width:26rem;padding:1.5rem;position:relative">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;color:#94a3b8;cursor:pointer">×</button>
+<h3 style="color:#fff;margin:0">Book a free demo</h3><p id="bookFor" class="muted" style="font-size:.85rem">We will call you back to confirm.</p>
+<form id="bookForm" style="display:grid;gap:.7rem;margin-top:1rem"><input required class="field" placeholder="Student name"><input required type="tel" class="field" placeholder="Phone number"><select id="bookType" class="field"><option>Free demo class</option><option>Career counselling</option></select><input required type="date" id="bookDate" class="field"><button class="btn btn-red">Confirm booking</button></form>
+<p id="bookMsg" style="display:none"></p></div></div>
+<script src="js/app.js"></script>
+</body>
+</html>

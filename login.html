@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign In — The Achievers Institute of Learning</title>
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="images/logo-mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><nav class="wrap" style="display:flex;align-items:center;justify-content:space-between;padding-top:.7rem;padding-bottom:.7rem">
+<a href="index.html" style="display:flex;align-items:center;gap:.7rem;text-decoration:none"><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:2.5rem"><span class="font-head" style="font-weight:800;font-size:.9rem">The Achievers</span></a>
+<a href="register.html" class="btn btn-ghost" style="font-size:.85rem">New here? Register</a></nav></header>
+<main class="wrap sec-sm" style="max-width:28rem">
+<div class="glass" style="border-radius:1.2rem;padding:1.8rem">
+<h1 style="margin:0">Welcome back</h1>
+<p class="muted" style="font-size:.9rem">Login to join live classes, watch recordings and take mocks.</p>
+<div class="tabs"><button class="tab on" data-tab="login">Login</button><button class="tab" data-tab="register">Register</button></div>
+<form id="loginForm" style="display:grid;gap:.7rem"><input required class="field" placeholder="Phone or email"><input required type="password" class="field" placeholder="Password"><button class="btn btn-red">Login</button></form>
+<form id="registerForm" style="display:none;gap:.7rem;flex-direction:column"><input required class="field" placeholder="Full name"><input required type="tel" class="field" placeholder="Phone number"><button class="btn btn-red">Create account</button><p class="muted" style="font-size:.8rem">Full form on the <a href="register.html" style="color:#178A5C">register page</a>.</p></form>
+<p id="loginMsg" style="display:none;font-size:.88rem"></p>
+<p class="muted" style="font-size:.82rem;margin-top:1rem">Demo build: auth is front-end only. Production uses phone + Google OAuth + email.</p>
+</div></main>
+<script src="js/app.js"></script>
+</body>
+</html>

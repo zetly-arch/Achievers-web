@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Register — The Achievers Institute of Learning</title>
+<meta name="description" content="Create a free Achievers account with phone, Google or email. Unlock free mocks, demo classes and counselling.">
+<link rel="canonical" href="https://theachievers.com.np/register">
+<link rel="icon" href="images/logo-mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><nav class="wrap" style="display:flex;align-items:center;justify-content:space-between;padding-top:.7rem;padding-bottom:.7rem">
+<a href="index.html" style="display:flex;align-items:center;gap:.7rem;text-decoration:none"><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:2.5rem"><span class="font-head" style="font-weight:800;font-size:.9rem">The Achievers</span></a>
+<a href="login.html" class="btn btn-ghost" style="font-size:.85rem">Have an account? Sign in</a></nav></header>
+<main class="wrap sec-sm" style="max-width:28rem">
+<div class="glass" style="border-radius:1.2rem;padding:1.8rem">
+<h1 style="margin:0">Create free account</h1>
+<p class="muted" style="font-size:.9rem">Phone, Google or email. Free demo + free mock included.</p>
+<form id="registerForm" style="display:grid;gap:.7rem;margin-top:1rem">
+<input required class="field" placeholder="Full name">
+<input required type="tel" class="field" placeholder="Phone number">
+<select class="field"><option>Class 11 Science</option><option>Class 12 Science</option><option>Management</option><option>Medical CEE</option><option>IOE / CSIT</option></select>
+<input required type="password" class="field" placeholder="Create password">
+<button class="btn btn-red">Create account</button>
+</form>
+<p id="registerFormMsg" style="display:none"></p>
+<div style="display:grid;gap:.5rem;margin-top:1rem">
+<button class="btn btn-ghost" onclick="document.getElementById('registerFormMsg').textContent='Google sign-in wires to OAuth in production.';document.getElementById('registerFormMsg').style.display='block';">Continue with Google</button>
+<p class="muted" style="font-size:.82rem">By registering you agree to the <a href="terms.html" style="color:#178A5C">Terms</a> and <a href="privacy.html" style="color:#178A5C">Privacy Policy</a>.</p>
+</div></div></main>
+<script src="js/app.js"></script>
+</body>
+</html>

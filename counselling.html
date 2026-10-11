@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Career Counselling — The Achievers Institute of Learning</title>
+<meta name="description" content="Book free 1-on-1 career counselling (Sunday–Friday). Reply within 24 hours. Online via Zoom or in-person.">
+<link rel="canonical" href="https://theachievers.com.np/counselling">
+<link rel="icon" href="images/logo-mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar"><div class="wrap" style="display:flex;justify-content:space-between;gap:1rem;padding-top:.45rem;padding-bottom:.45rem;flex-wrap:wrap">
+<span>Puspalal Chowk, Mahendranagar · 981-0686665</span>
+<a href="tel:+9779810686665" style="font-weight:700;color:#fff;text-decoration:none">Call for counselling</a>
+</div></div>
+<header class="nav"><nav class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:.7rem;padding-bottom:.7rem">
+<a href="index.html" style="display:flex;align-items:center;gap:.7rem;text-decoration:none"><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:2.5rem"><span class="font-head" style="font-weight:800;font-size:.9rem;line-height:1.2">The Achievers<br><span class="muted" style="font-weight:500;font-size:.72rem">Institute of Learning</span></span></a>
+<div class="navlinks" style="display:flex;align-items:center;gap:1.3rem">
+<a class="nl" href="index.html">Home</a><a class="nl" href="courses.html">Courses</a><a class="nl" href="mock-test.html">Mock Test</a><a class="nl" href="syllabus.html">Syllabus</a><a class="nl" href="teachers.html">Teachers</a><a class="nl" href="about.html">About</a><a class="nl on" href="counselling.html">Counselling</a><a class="nl" href="demo.html">Demo</a>
+</div>
+<div style="display:flex;gap:.5rem;align-items:center"><a href="register.html" class="btn btn-red" style="padding:.55rem 1rem;font-size:.82rem">Register free</a><button id="menuBtn" class="btn btn-ghost" style="display:none;padding:.55rem .8rem" aria-label="Open menu">☰</button></div></nav>
+<div id="mobileMenu" class="wrap" style="padding-bottom:1rem"><div class="glass" style="border-radius:.8rem;padding:.8rem;display:grid;gap:.2rem">
+<a class="nl" href="index.html">Home</a><a class="nl" href="courses.html">Courses</a><a class="nl" href="counselling.html">Counselling</a><a class="nl" href="demo.html">Demo</a><a class="nl" href="contact.html">Contact</a>
+</div></div></header>
+
+<main class="wrap sec-sm">
+<div class="grid g2" style="align-items:start">
+<div>
+<h1 style="margin:0">Free 1-on-1 career counselling</h1>
+<p class="muted">Confused between boards, CEE and IOE? Talk to a mentor — free, no obligation. We reply within 24 hours.</p>
+<div class="glass" style="border-radius:1rem;padding:1.2rem;margin-top:1.2rem">
+<h3 style="color:#fff;margin:0 0 .5rem">Availability</h3>
+<p class="muted" style="font-size:.9rem;margin:0">Sunday–Friday. Time-slot picker runs 7:00 AM – 6:00 PM. Prefer to just call? <a href="tel:+9779810686665" style="color:#178A5C;font-weight:700">+977 981-0686665</a>.</p>
+</div>
+<div class="glass" style="border-radius:1rem;padding:1.2rem;margin-top:1rem">
+<h3 style="color:#fff;margin:0 0 .5rem">What we cover</h3>
+<ul class="muted" style="font-size:.9rem;margin:0;padding-left:1.1rem"><li>Stream &amp; subject selection</li><li>Boards vs entrance strategy</li><li>Study plan + mock-test routine</li><li>Fees, batches &amp; scholarships</li></ul>
+</div>
+</div>
+<div class="glass" style="border-radius:1.2rem;padding:1.6rem">
+<h3 style="color:#fff;margin:0">Book your session</h3>
+<form id="counsForm" style="display:grid;gap:.8rem;margin-top:1rem">
+<div><label class="lbl" for="cName">Full name</label><input id="cName" required class="field" placeholder="e.g. Aarav Sharma"></div>
+<div><label class="lbl" for="cPhone">Phone</label><input id="cPhone" required type="tel" class="field" placeholder="98XXXXXXXX"></div>
+<div class="grid g2">
+<div><label class="lbl" for="cDate">Preferred date</label><input id="cDate" required type="date" class="field"></div>
+<div><label class="lbl" for="cTime">Preferred time (7 AM – 6 PM)</label><select id="cTime" class="field"><option>7:00 AM</option><option>9:00 AM</option><option>11:00 AM</option><option>1:00 PM</option><option>3:00 PM</option><option>5:00 PM</option></select></div>
+</div>
+<div class="grid g2">
+<div><label class="lbl" for="cType">Session type</label><select id="cType" class="field"><option>Individual</option><option>With parents</option><option>Group (5+)</option></select></div>
+<div><label class="lbl" for="cMode">Mode</label><select id="cMode" class="field"><option>Online via Zoom</option><option>In-person at centre</option></select></div>
+</div>
+<div><label class="lbl" for="cTopic">What to discuss</label><textarea id="cTopic" class="field" rows="3" placeholder="e.g. Class 12 Science + IOE plan"></textarea></div>
+<button class="btn btn-red">Request counselling</button>
+</form>
+<p id="counsFormMsg" style="display:none"></p>
+</div>
+</div>
+</main>
+
+<footer class="footer"><div class="wrap" style="display:grid;gap:2rem;padding-top:3rem;padding-bottom:2rem;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr))">
+<div><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:3rem"><p class="muted" style="font-size:.88rem">Together We ACHIEVE, Together We INSPIRE.</p></div>
+<div><h4 style="color:#fff">Platform</h4><div style="display:grid;gap:.4rem"><a href="courses.html">Courses</a><a href="demo.html">Demo</a><a href="contact.html">Contact</a></div></div>
+<div><h4 style="color:#fff">Resources</h4><div style="display:grid;gap:.4rem"><a href="faqs.html">FAQs</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
+<div><h4 style="color:#fff">Contact</h4><div style="display:grid;gap:.4rem" class="muted"><a href="tel:+9779810686665">+977 981-0686665</a><a href="https://wa.me/9779810686665" target="_blank" rel="noopener">WhatsApp</a></div></div></div>
+<div style="border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.75rem;padding:1rem" class="muted">© <span class="js-year"></span> The Achievers Institute of Learning</div></footer>
+<script src="js/app.js"></script>
+<script>var d=document.getElementById('cDate');if(d)d.min=new Date().toISOString().split('T')[0];</script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Achievers Institute of Learning — AI Powered Online Tuition for NEB Class 11 & 12</title>
+<meta name="description" content="Nepal's first AI-powered online tuition platform for NEB Class 11 & 12 Science, Management, CEE and IOE/CSIT. Daily live classes, recordings, notes, mock tests and 1-on-1 counselling.">
+<meta name="keywords" content="NEB tuition Nepal, Class 11 Science, Class 12 Science, CEE preparation, IOE entrance, online tuition Nepal, The Achievers">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://theachievers.com.np/">
+<meta property="og:type" content="website"><meta property="og:title" content="The Achievers — AI Powered Online Tuition Classes Platform">
+<meta property="og:description" content="Nepal's first online tuition platform. Daily live classes, recordings, notes, chapter-wise sets and weekly CBT mocks.">
+<meta property="og:image" content="https://theachievers.com.np/og-image.png"><meta property="og:url" content="https://theachievers.com.np/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/logo-mark.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* Homepage navbar only: dark sticky glass (equiv. backdrop-blur-md bg-slate-900/80 border-b border-slate-800) */
+header.nav{background:rgba(15,23,42,.8);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid #1e293b;position:sticky;top:0;z-index:50}
+header.nav .navlinks a.nl{color:#cbd5e1}
+header.nav .navlinks a.nl:hover{color:#fff}
+header.nav .brand-name{color:#fff!important}
+header.nav .brand-sub{color:#94a3b8!important}
+.btn-login-glow{display:inline-flex;align-items:center;justify-content:center;font-weight:700;border-radius:999px;padding:.6rem 1.4rem;font-size:.85rem;text-decoration:none;cursor:pointer;border:1px solid transparent;background:#dc2626;color:#fff!important;transition:all .3s}
+.btn-login-glow:hover{background:#b91c1c;box-shadow:0 10px 15px -3px rgba(0,0,0,.3),0 4px 6px -4px rgba(0,0,0,.3),0 0 24px rgba(239,68,68,.3);transform:translateY(-1px);color:#fff!important}
+/* Homepage hero only (equiv. hover:-translate-y-1 hover:scale-105 transition-all + bg-gradient-to-r from-red-500 to-amber-500 ring) */
+.hero-cta{display:inline-flex;align-items:center;justify-content:center;font-weight:800;border-radius:999px;padding:.95rem 2rem;font-size:.95rem;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:all .3s}
+.hero-cta-red{background:#dc2626;color:#fff!important;box-shadow:0 12px 30px -8px rgba(220,38,38,.55)}
+.hero-cta-red:hover{background:#b91c1c;transform:translateY(-4px) scale(1.05);box-shadow:0 20px 40px -10px rgba(220,38,38,.6);color:#fff!important}
+.hero-cta-gold{background:#F2A21B;color:#fff!important;box-shadow:0 12px 30px -8px rgba(242,162,27,.55)}
+.hero-cta-gold:hover{background:#D98706;transform:translateY(-4px) scale(1.05);box-shadow:0 20px 40px -10px rgba(242,162,27,.6);color:#fff!important}
+.hero-ring{background:linear-gradient(to right,#ef4444,#f59e0b);padding:2px;border-radius:1rem;box-shadow:0 30px 60px -25px rgba(220,38,38,.45)}
+.hero-card{background:#FFFDF7;border-radius:calc(1rem - 2px);overflow:hidden}
+.hero-stat{background:#fff;border:1px solid var(--border);border-radius:.9rem;padding:.7rem .9rem;box-shadow:0 12px 25px -20px rgba(90,70,30,.5)}
+.hero-stat .font-head{font-variant-numeric:tabular-nums}
+.live-dot{width:.55rem;height:.55rem;border-radius:999px;background:#22c55e;display:inline-block;animation:pulse-dot 1.6s ease-in-out infinite}
+@keyframes pulse-dot{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.5)}50%{box-shadow:0 0 0 6px rgba(34,197,94,0)}}
+/* Homepage courses section only: accent pills + lifting cards with gradient top-edge */
+#subjectPills .pill{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.8);box-shadow:0 4px 14px -8px rgba(90,70,30,.4);transition:all .3s}
+#subjectPills .pill:hover{border-color:var(--accent);color:var(--ink);transform:translateY(-1px)}
+#subjectPills .pill.active{background:#F2A21B;border-color:#F2A21B;color:#fff;font-weight:700;box-shadow:0 8px 20px -6px rgba(242,162,27,.6)}
+#courseGrid>article{position:relative;overflow:hidden;transition:all .3s}
+#courseGrid>article::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(to right,#ef4444,#f59e0b);opacity:0;transition:opacity .3s}
+#courseGrid>article:hover{transform:translateY(-8px);box-shadow:0 25px 50px -12px rgba(90,70,30,.45)}
+#courseGrid>article:hover::before{opacity:1}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"The Achievers Institute of Learning","address":"Puspalal Chowk, Science Campus Road, Mahendranagar, Nepal","telephone":"+9779810686665"}</script>
+</head>
+<body>
+<div class="topbar"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;justify-content:space-between;padding-top:.45rem;padding-bottom:.45rem">
+<div style="display:flex;flex-wrap:wrap;gap:.4rem 1.2rem"><span>Puspalal Chowk, Science Campus Road, Mahendranagar</span><a href="tel:9810686665" style="text-decoration:none">981-0686665 / 976-9884993</a><a href="mailto:info.theachiever@gmail.com" style="text-decoration:none">info.theachiever@gmail.com</a></div>
+<a href="https://play.google.com/store/apps/details?id=com.theachievers.learning" target="_blank" rel="noopener" style="font-weight:700;text-decoration:none">Get it on Google Play</a>
+</div></div>
+
+<header class="nav"><nav class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:.7rem;padding-bottom:.7rem">
+<a href="index.html" style="display:flex;align-items:center;gap:.7rem;text-decoration:none"><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:2.6rem;border-radius:.6rem"><span class="font-head brand-name" style="font-weight:700;font-size:1rem;line-height:1.2;color:var(--ink)">The Achievers<br><span class="muted brand-sub" style="font-weight:500;font-size:.7rem;font-family:'DM Sans',sans-serif;letter-spacing:.08em">INSTITUTE OF LEARNING</span></span></a>
+<div class="navlinks" style="display:flex;align-items:center;gap:1.4rem">
+<a class="nl" href="demo.html">Demo</a><a class="nl" href="about.html">About School</a><a class="nl" href="courses.html">Classes</a><a class="nl" href="syllabus.html">Programs</a><a class="nl" href="teachers.html">Teachers</a><a class="nl" href="mock-test.html">Mock Test</a>
+</div>
+<div style="display:flex;gap:.5rem;align-items:center">
+<a href="login.html" class="btn-login-glow">Student Login</a>
+<button id="menuBtn" class="btn btn-ghost" style="display:none;padding:.55rem .8rem" aria-label="Open menu">☰</button>
+</div></nav>
+<div id="mobileMenu" class="wrap" style="padding-bottom:1rem">
+<div class="glass" style="border-radius:.8rem;padding:.8rem;display:grid;gap:.2rem">
+<a class="nl" href="index.html">Home</a><a class="nl" href="courses.html">Classes</a><a class="nl" href="mock-test.html">Mock Test</a><a class="nl" href="syllabus.html">Programs</a><a class="nl" href="teachers.html">Teachers</a><a class="nl" href="about.html">About School</a><a class="nl" href="counselling.html">Counselling</a><a class="nl" href="demo.html">Demo</a><a class="nl" href="contact.html">Contact</a><a class="nl" href="faqs.html">FAQs</a>
+</div></div></header>
+
+<main>
+<!-- HERO -->
+<section class="hero-bg"><div class="wrap" style="display:grid;gap:2.5rem;grid-template-columns:1.05fr .95fr;align-items:center;padding-top:4rem;padding-bottom:4rem" id="heroGrid">
+<div>
+<p class="eyebrow">Now enrolling — new academic session</p>
+<h1 style="font-size:clamp(2.2rem,5vw,3.5rem);line-height:1.08;margin:.6rem 0 0;font-weight:700">Together We <span style="color:#dc2626">ACHIEVE</span>, Together We <span style="color:#D98706">INSPIRE</span></h1>
+<p class="muted" style="font-size:1.02rem;max-width:30rem;margin-top:1rem">Nepal's first AI-powered online tuition for NEB Class 11 &amp; 12, CEE and IOE/CSIT — daily live classes, HD recordings, chapter-wise notes and weekly CBT mock tests.</p>
+<div style="display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem">
+<button data-open="bookModal" class="hero-cta hero-cta-gold">Book Free Demo Class</button>
+<a href="register.html" class="hero-cta hero-cta-red">Start Learning Today</a>
+</div>
+<div style="display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(6.5rem,1fr));margin-top:1.6rem;max-width:30rem">
+<div class="hero-stat"><div class="font-head" style="font-size:1.35rem;font-weight:700;color:var(--ink)" data-count="100" data-suffix="K+">0</div><div class="muted" style="font-size:.75rem">Students helped</div></div>
+<div class="hero-stat"><div class="font-head" style="font-size:1.35rem;font-weight:700;color:var(--ink)" data-count="30" data-suffix="+">0</div><div class="muted" style="font-size:.75rem">Expert mentors</div></div>
+<div class="hero-stat"><div class="font-head" style="font-size:1.35rem;font-weight:700;color:var(--ink)">24/7</div><div class="muted" style="font-size:.75rem">Learning access</div></div>
+<div class="hero-stat"><div class="font-head" style="font-size:1.35rem;font-weight:700;color:var(--ink)" data-count="95" data-suffix="%+">0</div><div class="muted" style="font-size:.75rem">Pass rate</div></div>
+</div>
+</div>
+<div style="position:relative" id="heroArt">
+<div class="hero-ring">
+<div class="hero-card">
+<img src="images/divyanshu.jpg" alt="Divyanshu Thapa, Chemistry mentor and founder, teaching a live class" style="width:100%;height:17rem;object-fit:cover;object-position:top;display:block">
+<div style="padding:1.4rem">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:.6rem;flex-wrap:wrap">
+<span class="badge badge-red"><span class="live-dot"></span> LIVE · Daily classes</span>
+<span style="color:#F2A21B;font-size:.9rem;letter-spacing:.1em">★★★★★</span>
+</div>
+<h3 style="margin:.9rem 0 .2rem;font-size:1.3rem">Learn with Divyanshu Thapa</h3>
+<p class="muted" style="font-size:.88rem;margin:0">Founder · Chemistry · IOE Ranker · 6+ yrs</p>
+<ul class="muted" style="font-size:.88rem;margin:.9rem 0 0;padding-left:1.1rem;display:grid;gap:.3rem">
+<li>HD recordings, rewatch anytime</li>
+<li>Weekly CBT mocks with instant results</li>
+<li>Doubts cleared live in class</li>
+</ul>
+<div style="display:flex;align-items:center;gap:.7rem;margin-top:1.1rem">
+<div style="display:flex">
+<img src="images/nirmal.jpg" alt="Achievers student mentor" style="width:2.1rem;height:2.1rem;border-radius:999px;object-fit:cover;object-position:top;border:2px solid #fff">
+<img src="images/prakash.jpg" alt="Achievers student mentor" style="width:2.1rem;height:2.1rem;border-radius:999px;object-fit:cover;object-position:top;border:2px solid #fff;margin-left:-.6rem">
+<img src="images/gaurav.jpg" alt="Achievers student mentor" style="width:2.1rem;height:2.1rem;border-radius:999px;object-fit:cover;object-position:top;border:2px solid #fff;margin-left:-.6rem">
+</div>
+<p class="muted" style="font-size:.8rem;margin:0">Joined by <strong style="color:var(--ink)">100K+ students</strong> across Nepal</p>
+</div>
+<button data-open="bookModal" class="hero-cta hero-cta-gold" style="width:100%;margin-top:1.2rem;padding:.85rem 1rem">Book a Free Demo Class</button>
+</div>
+</div>
+</div>
+<span class="badge badge-gold" style="position:absolute;top:-.9rem;right:1rem;box-shadow:0 12px 25px -10px rgba(0,0,0,.35)">95%+ Board Pass Rate</span>
+</div>
+</div></section>
+
+<!-- MOST POPULAR CLASSES -->
+<section class="sec-sm"><div class="wrap" style="text-align:center">
+<p class="eyebrow">Our classes</p>
+<h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);margin:.4rem 0 0">Most Popular Classes</h2>
+<p class="muted" style="max-width:36rem;margin:.6rem auto 0">NEB-aligned tuition with daily live classes, recordings and chapter-wise practice — pick a subject to begin.</p>
+<div class="grid g3" style="margin-top:2rem;text-align:left">
+<article class="glass card-hover class-card">
+<img src="images/prakash.jpg" alt="Physics mentor Prakash Saud">
+<div class="icon-wrap"><span class="icon-badge">⚛</span></div>
+<h3 style="margin:.8rem 0 .3rem;font-size:1.25rem">Physics Classes</h3>
+<p class="muted" style="font-size:.9rem;padding:0 1.4rem">Our experienced teachers will teach you the techniques and numericals that make physics click.</p>
+<p><a class="link-more" href="courses.html">MORE INFO</a></p>
+</article>
+<article class="glass card-hover class-card">
+<img src="images/divyanshu.jpg" alt="Chemistry mentor Divyanshu Thapa">
+<div class="icon-wrap"><span class="icon-badge">🧪</span></div>
+<h3 style="margin:.8rem 0 .3rem;font-size:1.25rem">Chemistry Classes</h3>
+<p class="muted" style="font-size:.9rem;padding:0 1.4rem">Our classes are the perfect way to learn the reactions and tricks that make chemistry scoring.</p>
+<p><a class="link-more" href="courses.html">MORE INFO</a></p>
+</article>
+<article class="glass card-hover class-card">
+<img src="images/gaurav.jpg" alt="Mathematics mentor Gaurav Prasad Bist">
+<div class="icon-wrap"><span class="icon-badge">📐</span></div>
+<h3 style="margin:.8rem 0 .3rem;font-size:1.25rem">Maths Classes</h3>
+<p class="muted" style="font-size:.9rem;padding:0 1.4rem">Our maths classes offer a unique blend of speed shortcuts and step-by-step problem solving.</p>
+<p><a class="link-more" href="courses.html">MORE INFO</a></p>
+</article>
+</div>
+<p style="margin-top:1.6rem"><a href="courses.html" class="btn btn-red" style="font-size:.85rem">View all</a></p>
+</div></section>
+
+<!-- ABOUT SCHOOL -->
+<section class="sec-sm" style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)"><div class="wrap" style="display:grid;gap:2.5rem;grid-template-columns:1fr 1fr;align-items:center" id="aboutGrid">
+<div>
+<p class="eyebrow">About us</p>
+<h2 style="font-size:clamp(1.8rem,3.5vw,2.6rem);margin:.4rem 0 0">About School</h2>
+<p class="muted" style="font-size:.98rem;margin-top:.9rem">We are focused on creating an atmosphere for our students that will help them succeed. Founded by Divyanshu Thapa (IOE ranker, 6+ years), we pair expert mentorship with the largest repository of practice and mock tests in the country — from day one through to board exam day.</p>
+<ul class="muted" style="font-size:.92rem;columns:2;gap:2rem;margin:1.1rem 0 0;padding-left:1.1rem">
+<li>Daily live classes</li><li>Recorded lessons 24/7</li>
+<li>Chapter-wise notes</li><li>Weekly CBT mock tests</li>
+<li>Instant doubt clearing</li><li>Free career counselling</li>
+</ul>
+<p style="margin-top:1.4rem"><a href="about.html" class="btn btn-red" style="font-size:.85rem">View all</a></p>
+</div>
+<div style="position:relative;min-height:24rem">
+<img src="images/prakash.jpg" alt="Mentor with students" style="width:100%;height:24rem;object-fit:cover;object-position:top;border-radius:1.2rem">
+<div class="blob" style="position:absolute;right:-1.2rem;top:-1.2rem;width:5.5rem;height:5.5rem"></div>
+<div class="dots" style="position:absolute;left:-1rem;bottom:-1rem;width:5rem;height:5rem"></div>
+</div>
+</div></section>
+
+<!-- STATS BAND -->
+<section class="band" style="position:relative">
+<svg viewBox="0 0 1440 46" preserveAspectRatio="none" style="display:block;width:100%;height:2.6rem;margin-top:-1px"><path d="M0,46 C240,0 480,0 720,23 C960,46 1200,46 1440,10 L1440,0 L0,0 Z" fill="#FFFDF7"></path></svg>
+<div class="wrap" style="display:grid;gap:1.5rem;grid-template-columns:repeat(4,1fr);text-align:center;padding-top:1.2rem;padding-bottom:3rem" id="bandGrid">
+<div><div class="font-head" style="font-size:2.4rem;font-weight:700;color:var(--ink)" data-count="100" data-suffix="K+">0</div><div class="muted" style="font-size:.85rem">students helped</div></div>
+<div><div class="font-head" style="font-size:2.4rem;font-weight:700;color:var(--ink)" data-count="30" data-suffix="+">0</div><div class="muted" style="font-size:.85rem">expert mentors</div></div>
+<div><div class="font-head" style="font-size:2.4rem;font-weight:700;color:var(--ink)">24/7</div><div class="muted" style="font-size:.85rem">learning access</div></div>
+<div><div class="font-head" style="font-size:2.4rem;font-weight:700;color:var(--ink)" data-count="95" data-suffix="%+">0</div><div class="muted" style="font-size:.85rem">pass rate</div></div>
+</div></section>
+
+<!-- COURSE CATALOG -->
+<section class="sec-sm"><div class="wrap">
+<div style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:1rem">
+<div><p class="eyebrow">Programs</p><h2 style="margin:.3rem 0 0">Find your course</h2><p class="muted" style="margin:.3rem 0 0">Pick a program, then narrow by subject. <span id="courseCount"></span></p></div>
+<a href="courses.html" class="btn btn-ghost" style="font-size:.85rem">View all courses →</a>
+</div>
+<div id="courseFilters" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.2rem"></div>
+<div id="subjectPills" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.7rem;align-items:center"></div>
+<div id="courseGrid" class="grid g3" style="margin-top:1.5rem"></div>
+<p id="noCourse" class="muted" style="display:none">No courses match this filter. Choose “All” to see every program.</p>
+</div></section>
+
+<!-- HOW IT WORKS -->
+<section class="sec-sm" style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)"><div class="wrap">
+<p class="eyebrow">Getting started</p><h2 style="margin:.3rem 0 0">How it works</h2><p class="muted">From sign-up to board exam day — 4 steps.</p>
+<div class="grid g4" style="margin-top:1.4rem">
+<div class="glass card-hover" style="padding:1.4rem"><div class="step-num">1</div><h3>Register &amp; choose a course</h3><p class="muted" style="font-size:.9rem">Sign up, pick class, subject and batch — online or physical (limited seats).</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><div class="step-num">2</div><h3>Join daily live classes</h3><p class="muted" style="font-size:.9rem">Fixed weekly schedule, streamed live. Doubts cleared instantly; every class recorded.</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><div class="step-num">3</div><h3>Practice with mock tests</h3><p class="muted" style="font-size:.9rem">Chapter-wise sets + weekly full-length CBT mocks with instant results.</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><div class="step-num">4</div><h3>Track progress &amp; improve</h3><p class="muted" style="font-size:.9rem">Performance analytics and weak-area tracking, reviewed week on week.</p></div>
+</div></div></section>
+
+<!-- WHY CHOOSE US -->
+<section class="sec-sm"><div class="wrap">
+<p class="eyebrow">Why us</p><h2 style="margin:.3rem 0 0">Why students choose The Achievers</h2>
+<div class="grid g2" style="margin-top:1.4rem">
+<div class="glass card-hover" style="padding:1.4rem"><h3 style="margin-top:0">📚 Largest practice repository</h3><p class="muted">Hundreds of chapter-wise sets + weekly mocks, curated from past NEB papers. Instant score, solutions, percentile.</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><h3 style="margin-top:0">🎥 Learn anytime, anywhere</h3><p class="muted">Daily live classes + HD recordings on web and Android app, 24/7 — built for low bandwidth and replay.</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><h3 style="margin-top:0">⚡ Exam tricks &amp; live doubts</h3><p class="muted">Speed shortcuts for pressure situations, real-time clarification in class and chat support after.</p></div>
+<div class="glass card-hover" style="padding:1.4rem"><h3 style="margin-top:0">📈 Analytics + mentorship</h3><p class="muted">Weak-area tracking, supportive peer community, always-available mentors. No hidden fees · Cancel anytime.</p></div>
+</div></div></section>
+
+<!-- MENTORS PREVIEW -->
+<section class="sec-sm" style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)"><div class="wrap">
+<div style="display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:1rem">
+<div><p class="eyebrow">Mentors</p><h2 style="margin:.3rem 0 0">Learn from our mentors</h2><p class="muted" style="margin:.3rem 0 0">30+ mentors · 11 featured faculty · select a card for the full profile.</p></div>
+<a href="teachers.html" class="btn btn-ghost" style="font-size:.85rem">Meet all teachers →</a>
+</div>
+<div id="mentorGrid" class="grid g4" style="margin-top:1.4rem"></div>
+</div></section>
+
+<!-- TESTIMONIALS -->
+<section class="sec-sm"><div class="wrap" style="text-align:center">
+<p class="eyebrow">Testimonials</p><h2 style="margin:.3rem 0 0">What our students say</h2><p class="muted">Results from NEB boards, CEE and IOE aspirants across Nepal.</p>
+<div class="grid g3" style="margin-top:1.4rem;text-align:left" id="testiGrid"></div>
+</div></section>
+
+<!-- MOCK CTA -->
+<section class="sec-sm" style="padding-top:0"><div class="wrap">
+<div class="glass" style="padding:2.2rem;display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;justify-content:space-between">
+<div><h2 style="margin:0">Try a CBT mock test</h2><p class="muted" style="max-width:34rem">Take a 5-question sample and see your score instantly. The full platform has thousands of timed questions.</p></div>
+<div style="display:flex;gap:.6rem;flex-wrap:wrap">
+<button data-open="quizModal" class="btn btn-red">Start sample quiz</button>
+<button data-open="payModal" class="btn btn-ghost">Pay fees</button>
+</div></div>
+</div></section>
+
+<!-- FAQ -->
+<section class="sec-sm" style="padding-top:0"><div class="wrap" style="max-width:56rem">
+<p class="eyebrow">FAQs</p><h2 style="margin:.3rem 0 0">Frequently asked questions</h2>
+<div style="display:grid;gap:.7rem;margin-top:1.2rem">
+<details class="faq" open><summary>Who are the classes for?</summary><div class="body">NEB Class 11 and 12 students (Science &amp; Management) plus Medical (CEE) and Engineering (IOE/CSIT) entrance aspirants.</div></details>
+<details class="faq"><summary>How do live classes work?</summary><div class="body">Streamed live on a fixed weekly schedule; every class is also recorded for rewatch on web or the Android app.</div></details>
+<details class="faq"><summary>Are mock tests really free?</summary><div class="body">Yes — enrolled students get free chapter-wise and full-length mocks with instant results. A free full-length CBT mock is open to everyone.</div></details>
+<details class="faq"><summary>What payment methods are accepted?</summary><div class="body">eSewa, Khalti, Fonepay and major Nepali bank transfers. Secure, encrypted checkout — no hidden fees, cancel anytime.</div></details>
+<details class="faq"><summary>Can I try before I pay?</summary><div class="body">Yes — take a free demo class or a free mock test before enrolling. 1-on-1 career counselling (Sun–Fri) is also free.</div></details>
+</div>
+<p style="margin-top:1rem"><a href="faqs.html" class="link-more">VIEW ALL FAQS →</a></p>
+</div></section>
+
+<!-- APP CTA -->
+<section class="sec-sm" style="padding-top:0"><div class="wrap">
+<div class="glass" style="padding:2.2rem;display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;justify-content:space-between">
+<div><h2 style="margin:0">Study on the go</h2><p class="muted" style="max-width:32rem">Live + recorded lessons, notes and CBT mocks in your pocket. Android app live; iOS coming soon.</p></div>
+<div style="display:flex;gap:.6rem;flex-wrap:wrap">
+<a class="btn btn-red" href="https://play.google.com/store/apps/details?id=com.theachievers.learning" target="_blank" rel="noopener">▶ Google Play</a>
+<span class="btn btn-ghost">iOS — coming soon</span>
+</div></div>
+</div></section>
+
+<!-- BOTTOM CTA -->
+<section class="sec-sm" style="padding-top:0"><div class="wrap">
+<div class="panel-dark" style="padding:3rem;text-align:center">
+<h2 style="margin:0">Ready to top your boards?</h2>
+<p class="muted">Create a free account, or book a free demo class first. Free 1-on-1 counselling Sun–Fri.</p>
+<div style="display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-top:1.4rem">
+<a href="register.html" class="btn btn-accent">Create free account</a>
+<button data-open="bookModal" class="btn btn-ghost" style="border-color:#FFF6E3;color:#FFF6E3!important">Book Free Demo Class</button>
+<a href="counselling.html" class="btn btn-ghost" style="border-color:#FFF6E3;color:#FFF6E3!important">Free Counselling</a>
+</div></div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="wrap" style="display:grid;gap:2rem;padding-top:3rem;padding-bottom:2rem;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr))">
+<div><img src="images/logo-mark.webp" alt="The Achievers logo" style="height:3rem;border-radius:.6rem"><p class="muted" style="font-size:.88rem">The Achievers Institute of Learning.<br>Together We ACHIEVE, Together We INSPIRE.</p>
+<div style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="pay">eSewa</span><span class="pay">Khalti</span><span class="pay">Fonepay</span></div></div>
+<div><h4>Platform</h4><div style="display:grid;gap:.4rem"><a href="courses.html">Courses</a><a href="teachers.html">Teachers</a><a href="about.html">About</a><a href="syllabus.html">Syllabus</a><a href="demo.html">Demo</a><a href="contact.html">Contact</a></div></div>
+<div><h4>Resources</h4><div style="display:grid;gap:.4rem"><a href="mock-test.html">Free Mock Test</a><a href="counselling.html">Counselling</a><a href="faqs.html">FAQs</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="cookies.html">Cookies Policy</a></div></div>
+<div><h4>Contact</h4><div style="display:grid;gap:.4rem;font-size:.9rem">
+<span class="muted">Puspalal Chowk, Science Campus Road, Mahendranagar</span>
+<a href="tel:9810686665">981-0686665</a><a href="tel:9769884993">976-9884993</a>
+<a href="https://wa.me/9779810686665" target="_blank" rel="noopener">WhatsApp us</a>
+<a href="https://maps.app.goo.gl/fo6vjBYxXNQiSswWA" target="_blank" rel="noopener">Open in Google Maps</a>
+<div style="display:flex;gap:.7rem;flex-wrap:wrap"><a href="https://www.facebook.com/profile.php?id=61579416387457" target="_blank" rel="noopener">Facebook</a><a href="https://youtube.com/@TheAchieversAcademy-edu" target="_blank" rel="noopener">YouTube</a><a href="https://www.tiktok.com/@achievers.academy10" target="_blank" rel="noopener">TikTok</a></div>
+<div class="flip-row" data-flip style="margin-top:.9rem"></div>
+</div></div></div>
+<div style="border-top:1px solid rgba(255,255,255,.15);text-align:center;font-size:.75rem;padding:1rem" class="muted">© <span class="js-year"></span> The Achievers Institute of Learning · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="contact.html">Contact</a></div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/9779810686665?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20The%20Achievers%20online%20tuition%20classes." target="_blank" rel="noopener">WhatsApp us</a>
+
+<!-- MODALS -->
+<div id="loginModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(34,49,43,.55)" role="dialog" aria-modal="true" aria-label="Login or register">
+<div class="glass" style="border-radius:1rem;width:100%;max-width:26rem;padding:1.5rem;position:relative">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;cursor:pointer" aria-label="Close">×</button>
+<div class="tabs"><button data-tab="login" class="tab on">Login</button><button data-tab="register" class="tab">Register</button></div>
+<form id="loginForm" style="display:grid;gap:.7rem"><input required class="field" placeholder="Phone or email"><input required type="password" class="field" placeholder="Password"><button class="btn btn-red">Login</button></form>
+<form id="registerForm" style="display:none;gap:.7rem;flex-direction:column"><input required class="field" placeholder="Full name"><input required type="tel" class="field" placeholder="Phone number"><select class="field"><option>Class 11 Science</option><option>Class 12 Science</option><option>Management</option><option>Medical CEE</option><option>IOE / CSIT</option></select><input required type="password" class="field" placeholder="Create password"><button class="btn btn-red">Create account</button></form>
+<p id="loginMsg" style="display:none;font-size:.88rem"></p>
+<p class="muted" style="font-size:.8rem">Full pages: <a href="login.html">Sign in</a> · <a href="register.html">Register</a></p>
+</div></div>
+
+<div id="bookModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(34,49,43,.55)" role="dialog" aria-modal="true" aria-label="Book a demo class">
+<div class="glass" style="border-radius:1rem;width:100%;max-width:26rem;padding:1.5rem;position:relative">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;cursor:pointer" aria-label="Close">×</button>
+<h3 style="margin:0">Book a free demo or counselling</h3>
+<p id="bookFor" class="muted" style="font-size:.85rem">Tell us what you need and we will call you back.</p>
+<form id="bookForm" style="display:grid;gap:.7rem;margin-top:1rem"><input required class="field" placeholder="Student name"><input required type="tel" class="field" placeholder="Phone number"><select id="bookType" class="field"><option>Free demo class</option><option>Career counselling</option></select><select class="field"><option>Class 11 Science</option><option>Class 12 Science</option><option>Management</option><option>Medical CEE</option><option>IOE / CSIT</option></select><input required type="date" id="bookDate" class="field"><button class="btn btn-red">Confirm booking</button></form>
+<p id="bookMsg" style="display:none;font-size:.88rem"></p>
+</div></div>
+
+<div id="mentorModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(34,49,43,.55)" role="dialog" aria-modal="true" aria-label="Mentor profile">
+<div class="glass" style="border-radius:1rem;width:100%;max-width:32rem;position:relative;overflow:hidden;max-height:92vh;overflow-y:auto">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;cursor:pointer;z-index:2" aria-label="Close">×</button>
+<div id="mentorBody"></div>
+</div></div>
+
+<div id="quizModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(34,49,43,.55)" role="dialog" aria-modal="true" aria-label="Sample CBT quiz">
+<div class="glass" style="border-radius:1rem;width:100%;max-width:32rem;padding:1.5rem;position:relative">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;cursor:pointer" aria-label="Close">×</button>
+<div id="quizBody"></div>
+</div></div>
+
+<div id="payModal" class="modal" style="position:fixed;inset:0;z-index:50;align-items:center;justify-content:center;padding:1rem;background:rgba(34,49,43,.55)" role="dialog" aria-modal="true" aria-label="Payment">
+<div class="glass" style="border-radius:1rem;width:100%;max-width:26rem;padding:1.5rem;position:relative">
+<button data-close style="position:absolute;top:.6rem;right:1rem;font-size:1.5rem;background:none;border:0;cursor:pointer" aria-label="Close">×</button>
+<h3 style="margin:0">Pay your fees</h3>
+<p class="muted" style="font-size:.85rem">Choose a wallet, pay, then send the screenshot to 981-0686665.</p>
+<div id="payOpts" style="display:grid;gap:.5rem;margin-top:1rem"></div>
+<div id="payDetail" class="glass" style="display:none;margin-top:1rem;border-radius:.8rem;padding:1rem;font-size:.88rem"></div>
+</div></div>
+
+<script>
+window.__courseLimit = 6;
+var TESTIS = [
+["Aarav S.","Class 12 Science, Mahendranagar","Physics finally clicked. Recorded backups saved me on low-network evenings, and the weekly mocks pushed my scores up."],
+["Sneha K.","Class 11 Science, Kathmandu","Short explainers + instant doubt clearing on chat. I revise on the bus and rewatch at night."],
+["Rohan B.","IOE Aspirant","The IOE physics numerical marathons are gold. Speed tricks alone added 15 marks to my model tests."],
+["Prerana T.","CEE Aspirant","CEE biology MCQs with instant solutions every week. My botany accuracy went from 55% to 85%."],
+["Sandesh M.","Class 12 Management, Butwal","Accountancy worked examples are so clear. Company accounts stopped feeling scary."],
+["Anisha R.","Class 12 Science, Dhangadhi","Chemistry reaction maps + past-paper drills. My pre-boards jumped a full grade."],
+["Bibek C.","Class 11 Science, Nepalgunj","Live classes feel like a real classroom. Teachers answer doubts the same minute."],
+["Sunita (parent)","Butwal","I track attendance and test scores without calling anyone. Fees on Khalti took two minutes."],
+["Kritika D.","Class 12 Science, Kathmandu","Weak-area analytics told me exactly which chapters to redo. No more random studying."],
+["Nirajan P.","CSIT Aspirant","Full-length CBT mocks feel like the real exam — timer, palette, percentile. Walked in confident."]
+];
+document.getElementById('testiGrid').innerHTML = TESTIS.map(function(t){
+return '<div class="glass card-hover" style="padding:1.3rem"><div style="color:#F2A21B">★★★★★</div><p style="font-size:.92rem">“'+t[2]+'”</p><p style="margin:.6rem 0 0;font-weight:700;color:var(--ink)">'+t[0]+'</p><p class="muted" style="font-size:.8rem;margin:0">'+t[1]+'</p></div>';
+}).join('');
+</script>
+<script src="js/app.js"></script>
+</body>
+</html>
